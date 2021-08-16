@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    width: 400px;
+    height: 400px;
+    border: 2px solid #ccc;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    font-size: 1.5rem;
+    margin: 5px;
+    border-radius: 10px 0px 10px 0px;
+    box-shadow: 5px 10px 8px  #888888;
+}
+input:focus{
+    outline: none;
+}
+ul{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    list-style: none;
+    
+}
+
+.bgimghaze{
+   background-image: url('https://www.asiaone.com/sites/default/files/original_images/Sep2019/20190923_haze-singapore_ST.jpg'); 
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
