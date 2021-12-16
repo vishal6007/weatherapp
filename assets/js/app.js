@@ -16,6 +16,8 @@ $('ul').append(`<li>${days[date.getDay()]}  ${date.getDate()}-${date.getMonth()}
 
 const country_name=(data.sys.country);
 const weather_des=(data.weather[0].main);
+const formclass=$('form').attr('class');
+$('form').removeClass(formclass);
 if(weather_des=="Thunderstorm"){
     $('form').addClass('bgimg1');
 }
