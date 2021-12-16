@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url('https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1');
+    background-repeat: no-repeat;
+   background-size: 100%;
+}
+
 form{
     width: 400px;
     height: 400px;
@@ -10,6 +16,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 input{
     font-size: 1.5rem;
@@ -31,8 +38,93 @@ ul{
     
 }
 
-.bgimghaze{
-   background-image: url('https://www.asiaone.com/sites/default/files/original_images/Sep2019/20190923_haze-singapore_ST.jpg'); 
+.bgimg1{
+   background-image: url('https://images.unsplash.com/photo-1594760467013-64ac2b80b7d3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGh1bmRlcnN0b3JtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60'); 
    background-repeat: no-repeat;
    background-size: 100% 100%;
 }
+
+.bgimg2{
+    background-image: url('https://images.unsplash.com/photo-1576234699886-7eb7f11aecb7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZHJpenpsZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg3{
+    background-image: url('https://media.istockphoto.com/photos/back-view-of-a-carefree-woman-on-rain-by-the-river-picture-id1304173435?b=1&k=20&m=1304173435&s=170667a&w=0&h=5p4fWTAHH5PK6PYWia3Lc4zlVMUEwLIDmSAf-s9whwA='); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg4{
+    background-image: url('https://images.unsplash.com/photo-1418985991508-e47386d96a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNub3d8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg5{
+    background-image: url('https://images.unsplash.com/photo-1503217195339-397eb18024e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c21va2UlMjBjbG91ZHxlbnwwfHwwfHw%3D&w=1000&q=80'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg6{
+    background-image: url('https://images.unsplash.com/photo-1521942132694-5daae96ff62d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c21va2UlMjB3ZWF0aGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ 
+.bgimg7{
+    background-image: url('https://images.unsplash.com/36/STzPBJUsSza3mzUxiplj_DSC09775.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGF6ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg8{
+    background-image: url('https://images.unsplash.com/photo-1620991762674-a178aef24fda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZHVzdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg9{
+    background-image: url('https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg10{
+    background-image: url('https://images.unsplash.com/photo-1529852766667-d93fae7b267c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2FuZCUyMHdlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg11{
+    background-image: url('https://media.istockphoto.com/photos/burnt-forest-village-and-rural-area-to-turkey-picture-id1332715220?b=1&k=20&m=1332715220&s=170667a&w=0&h=TwJoB9O4jVhBg9o46VUJqMtBFgwV55JnlpOdE0sNPSA='); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg12{
+    background-image: url('https://media.istockphoto.com/photos/professional-cyclist-under-stormy-sky-picture-id486479692?b=1&k=20&m=486479692&s=170667a&w=0&h=0t7Y2PoPDM4P0GfcQZaww6X6XnoOo-zzVncVnsA_qA8='); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg13{
+    background-image: url('https://media.istockphoto.com/photos/tornado-air-view-picture-id1029369192?b=1&k=20&m=1029369192&s=170667a&w=0&h=uykphC0RGDfzcO4NAj1lCyR1F-9P1S0Cr2p7_F8L_7k='); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg14{
+    background-image: url('https://media.istockphoto.com/photos/clear-blue-sky-background-with-scattered-clouds-picture-id184304316?b=1&k=20&m=184304316&s=170667a&w=0&h=RgzWoFyFs7scei5YbqBKv9rdEF-paSbmfuNIC4ht6cI='); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ .bgimg15{
+    background-image: url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2xvdWRzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+ 
