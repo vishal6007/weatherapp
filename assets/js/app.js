@@ -1,7 +1,5 @@
-
 const getWeatherData = async(cityname)=>{
 $('ul').empty();
-//$('ul').removeclass();
 const url=`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=bcb66ea6ceacb037d08be3fda92bd1b9`;
 const fetchedData = await fetch(url,{method: 'GET'});
 const data =await fetchedData.json();
@@ -90,6 +88,4 @@ $('form').submit((e)=>{
     
 
 })
-
-
 
